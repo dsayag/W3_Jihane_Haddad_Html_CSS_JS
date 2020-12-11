@@ -1,0 +1,20 @@
+#maDiv1{
+    background-color:orangered;
+    width: 200px;
+    height: 200px;
+    display: inherit;
+}
+
+#maDiv2{
+    background-color:purple;
+    width: 200px;
+    height: 200px;
+    display: none;
+}
+
+#maDiv3{
+    background-color:orange;
+    width: 200px;
+    height: 200px;
+    display: none;
+}

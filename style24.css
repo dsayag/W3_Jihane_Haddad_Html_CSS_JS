@@ -1,0 +1,25 @@
+.p1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;   
+}
+
+.p2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 400;  
+}
+
+.p3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    background-color: cadetblue;
+    color: white;
+}
+.p4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;  
+}
+

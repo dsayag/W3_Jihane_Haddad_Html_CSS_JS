@@ -1,0 +1,27 @@
+#maDiv1{
+    background-color:orangered;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#maDiv1 h2{
+    color:#000;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+#maDiv1 p{
+    color:#fff;
+}
+
+#maDiv1 p:hover{
+    color:blue !important;
+}
+
+.black{
+    color:#000;
+}

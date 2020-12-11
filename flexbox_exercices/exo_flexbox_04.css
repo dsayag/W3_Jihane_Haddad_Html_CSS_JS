@@ -1,0 +1,64 @@
+#mainBleu{
+    display: flex;
+    background-color: rgb(43, 128, 226);
+    width: 600px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainViolet1{
+    display: flex;    
+    background-color:rgb(151, 1, 89);
+    width: 90%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainViolet2{
+    display: flex;    
+    background-color:rgb(151, 1, 89);
+    width: 90%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainViolet3{
+    display: flex;    
+    background-color:rgb(151, 1, 89);
+    width: 90%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#divOrange{
+    display: flex;
+    background-color:rgb(255, 174, 0);
+    width:70px;
+    height: 50px;    
+}
+
+#divVert{
+    display: flex;
+    background-color:rgb(145, 255, 1);
+    width:150px;
+    height: 150px;
+}
+
+#divRouge{
+    display: flex;
+    background-color: red;
+    width:70px;
+    height: 50px;
+    margin-right:30px;
+}
+
+
+
+
+
+

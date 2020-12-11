@@ -1,0 +1,41 @@
+*{
+    margin:5px 0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+h1{
+    margin:10px;
+    text-align: center;
+    font-style: italic;
+}
+
+h2{
+    margin:10px;
+    text-align: center;
+    font-style: italic;
+    color:rgb(105, 6, 105);
+}
+
+.monFormulaire {
+    color: white;
+    background-color:rgb(105, 6, 105);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.col-35 {
+    float: left;
+    width: 35%;
+}
+  
+.col-65 {
+    float: left;
+    width: 65%;
+ }

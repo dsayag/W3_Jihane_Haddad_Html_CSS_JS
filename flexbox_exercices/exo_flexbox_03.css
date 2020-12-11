@@ -1,0 +1,47 @@
+#mainBleu{
+    display: flex;
+    background-color: rgb(43, 128, 226);
+    width: 600px;
+    height: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainViolet{
+    display: flex;    
+    background-color:rgb(151, 1, 89);
+    width: 250px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainRouge{
+    display: flex; 
+    background-color:rgb(216, 5, 5);   
+    width: 250px;
+    height: 400px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divOrange{
+    display: flex;
+    background-color:rgb(255, 174, 0);
+    width:200px;
+    height: 50px;    
+}
+
+.divVert{
+    display: flex;
+    background-color:rgb(145, 255, 1);
+    width:200px;
+    height: 150px;
+}
+
+
+
+

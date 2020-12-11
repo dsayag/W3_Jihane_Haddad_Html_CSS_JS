@@ -1,0 +1,40 @@
+#main{
+    display: flex;
+    background-color: rgb(43, 128, 226);
+    width: 700px;
+    height: 300px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#main2{
+    display: flex;    
+    background-color: #d13194;
+    width: 600px;
+    height: 100px;
+    justify-content:space-around;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#main3{
+    display: flex;    
+    background-color: rgb(47, 128, 0);
+    width: 600px;
+    height: 100px;
+}
+
+#child1Main2, #child2Main2, #child3Main2, #child4Main2, #child5Main2{
+    width: 80px;
+    height: 50px;
+}
+
+.color-yellow{
+    background-color: orange;
+}
+
+.color-purple{
+    background-color: rgb(228, 6, 6);
+}

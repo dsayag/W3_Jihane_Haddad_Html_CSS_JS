@@ -1,0 +1,8 @@
+.maDiv{
+    width:600px;
+    height:600px;
+    border: 2px dashed green;
+    background: url("images/plante3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

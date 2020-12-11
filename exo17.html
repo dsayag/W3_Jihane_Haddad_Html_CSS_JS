@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Exercice 17</title>
+    <link href="style17.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pique-nique multi association</h1>
+    <h2>titre</h2>
+    <div class="monFormulaire">
+        <form method="POST">
+            <div class="col-35">
+                <label for="name">Prénom</label>                
+            </div>
+            <div class="col-75">
+                <input type="text" id="name" name="prenom" value="" placeholder="Prénom et nom">
+            <div>
+            <div class="col-35">
+                <label for="password">Mot de passe :</label>
+            </div>
+            <div class="col-75">
+                <input id="password" type="password" name="pass">
+            <div>
+            <div class="col-35">
+                <label for="name">Association</label>
+            </div>
+            <div class="col-75">
+                <select id="monselect">
+                    <option value="valeur1">FCl Tennis</option>
+                    <option value="valeur2" selected>ATQSG</option>
+                    <option value="valeur3">TC Divonne</option>
+                 </select>
+            </div>
+            <div class="col-35">
+                <label for="name">Disponibilité les jours de la semaine 22 :</label>
+            </div>
+            <div class="col-75">
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="lundi">
+                <label for="subscribeNews">Lundi</label>
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="Mardi">
+                <label for="subscribeNews">Mardi</label>
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="Mercredi">
+                <label for="subscribeNews">Mercredi</label>
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="Jeudi">
+                <label for="subscribeNews">Jeudi</label>
+                <input type="checkbox" id="subscribeNews" name="subscribe" value="Vendredi">
+                <label for="subscribeNews">Vendredi</label>            
+            </div>
+            <div class="col-35">
+                <label for="name">Contributions:</label>
+            </div>
+            <div class="col-75">
+                <input type="radio" id="choix1" name="cb" value="visa">
+                <label for="choix1">VISA</label>
+                <input type="radio" id="choix2" name="cb" value="plat">
+                <label for="choix2">Plat</label>
+                <input type="radio" id="choix3" name="cb" value="dessert">
+                <label for="choix3">Dessert</label>
+            </div>
+            <div class="col-35">
+                <label for="name">Commentaires:</label>
+            </div>
+            <div class="col-75">
+                <textarea name="textarea" rows="10" cols="50">Ecrire votre adresse</textarea>
+            </div>
+            <div class="col-35">
+            &nbsp;         
+            </div>
+            <div class="col-75">
+                <input type="submit" value="S'inscrire">
+                <input type="submit" value="Annuler">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
